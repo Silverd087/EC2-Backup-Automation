@@ -16,7 +16,7 @@ This project uses **AWS Lambda** and **Amazon EventBridge** to create a hands-of
 ## 🛠 Architecture
 The architecture follows a serverless event-driven pattern. You can visualize the flow using the diagram below:
 
-![Architecture Diagram](./architecture-diagram.png)
+![Architecture Diagram](./assets/architecture-diagram.png)
 
 1. **EventBridge (Trigger)**: Fires a Cron schedule (e.g., daily at midnight).
 2. **AWS Lambda (Logic)**: The central engine that identifies instances, creates snapshots, and prunes old data.
